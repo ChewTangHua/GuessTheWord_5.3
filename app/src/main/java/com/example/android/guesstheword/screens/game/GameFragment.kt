@@ -63,6 +63,7 @@ class GameFragment : Fragment() {
             if (hasFinished) gameFinished()
         })
 
+        // test
         binding.gameViewModel = viewModel
         binding.lifecycleOwner = this
         return binding.root
